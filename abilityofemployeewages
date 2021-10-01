@@ -1,0 +1,19 @@
+package com.day10;
+import java.util.*;
+
+public class Employesrt {
+
+	     public static void main(String[] args)
+	     {
+	        Employee[] staff = new Employee[3];
+	
+	        staff[0] = new Employee();
+	        staff[1] = new Employee();
+	        staff[2] = new Employee();
+
+	        Arrays.sort(staff);
+	        for (Employee e : staff)
+	           System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
+	    }
+	  }
+
